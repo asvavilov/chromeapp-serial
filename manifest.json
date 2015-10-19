@@ -1,0 +1,15 @@
+{
+  "name": "Serial Arduino",
+  "description": "",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions" : [
+     "serial", "background"
+  ],
+  "background_page": "background.html",
+  "app": {
+    "background": {
+      "scripts": [ "background.js" ]
+    }
+  }
+}
